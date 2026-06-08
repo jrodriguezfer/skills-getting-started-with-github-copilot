@@ -21,23 +21,59 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    "Chess Club": {
-        "description": "Learn strategies and compete in chess tournaments",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+    "Club de Ajedrez": {
+        "description": "Aprende estrategias y compite en torneos de ajedrez",
+        "schedule": "Viernes, 3:30 PM - 5:00 PM",
         "max_participants": 12,
         "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
-    "Programming Class": {
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+    "Clase de Programación": {
+        "description": "Aprende fundamentos de programación y construye proyectos de software",
+        "schedule": "Martes y Jueves, 3:30 PM - 4:30 PM",
         "max_participants": 20,
         "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
     },
-    "Gym Class": {
-        "description": "Physical education and sports activities",
-        "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
+    "Clase de Educación Física": {
+        "description": "Educación física y actividades deportivas",
+        "schedule": "Lunes, Miércoles, Viernes, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Fútbol": {
+        "description": "Práctica y competencia de fútbol con entrenamiento profesional",
+        "schedule": "Lunes y Miércoles, 4:00 PM - 5:30 PM",
+        "max_participants": 22,
+        "participants": ["lucas@mergington.edu", "alejandro@mergington.edu"]
+    },
+    "Baloncesto": {
+        "description": "Desarrollo de habilidades de baloncesto y torneos interescolares",
+        "schedule": "Martes y Jueves, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu", "carlos@mergington.edu"]
+    },
+    "Taller de Pintura": {
+        "description": "Aprende técnicas de pintura y expresión artística",
+        "schedule": "Miércoles, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["isabella@mergington.edu", "sofia@mergington.edu"]
+    },
+    "Taller de Música": {
+        "description": "Aprende a tocar instrumentos musicales y participa en conciertos",
+        "schedule": "Lunes y Viernes, 3:30 PM - 4:30 PM",
+        "max_participants": 18,
+        "participants": ["laura@mergington.edu", "marco@mergington.edu"]
+    },
+    "Club de Ciencias": {
+        "description": "Realiza experimentos y explora disciplinas científicas",
+        "schedule": "Jueves, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["juan@mergington.edu", "patricia@mergington.edu"]
+    },
+    "Debate y Oratoria": {
+        "description": "Desarrolla habilidades de argumentación y comunicación pública",
+        "schedule": "Martes, 4:00 PM - 5:30 PM",
+        "max_participants": 14,
+        "participants": ["sebastian@mergington.edu", "victoria@mergington.edu"]
     }
 }
 
